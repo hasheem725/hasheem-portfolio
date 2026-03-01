@@ -10,7 +10,6 @@ theme = "github.com/jpanther/congo/v2"
 [params]
   description = "Technical Leader & Robotics Infrastructure Expert"
   homepageLayout = "profile"
-  footerText = "![Build Status](https://github.com/hasheem725/hasheem-portfolio/actions/workflows/hugo.yml/badge.svg) | Automated via GitHub Actions"
 
 [params.author]
   name = "Mohammed Hasheem Ilyas"
