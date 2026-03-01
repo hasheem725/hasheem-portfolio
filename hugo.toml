@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'http://hasheem725.github.io/hasheem-portfolio/'
 languageCode = 'en-us'
 title = 'Mohammed Hasheem Ilyas'
 theme = "github.com/jpanther/congo/v2"
@@ -12,7 +12,6 @@ theme = "github.com/jpanther/congo/v2"
   homepageLayout = "profile"
 
 [params.author]
-  name = "Mohammed Hasheem Ilyas"
   headline = "Technical Leader | Robotics Infrastructure | CI/CD Expert"
   bio = "11+ years of experience scaling global autonomous fleets."
   showExternalLinks = true
@@ -22,12 +21,13 @@ theme = "github.com/jpanther/congo/v2"
     { email = "mailto:hasheem725@gmail.com" }
   ]
 
-[[menu.main]]
-  name = "Projects"
-  url = "projects/"
-  weight = 10
+[menu]
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
 
-[[menu.main]]
-  name = "About"
-  url = "/"
-  weight = 20
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 20
