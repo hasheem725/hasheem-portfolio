@@ -1,0 +1,33 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Mohammed Hasheem Ilyas'
+theme = "github.com/jpanther/congo/v2"
+
+[module]
+  [[module.imports]]
+    path = "github.com/jpanther/congo/v2"
+
+[params]
+  description = "Technical Leader & Robotics Infrastructure Expert"
+  homepageLayout = "profile"
+
+[params.author]
+  name = "Mohammed Hasheem Ilyas"
+  headline = "Technical Leader | Robotics Infrastructure | CI/CD Expert"
+  bio = "11+ years of experience scaling global autonomous fleets."
+  showExternalLinks = true
+  links = [
+    { linkedin = "https://www.linkedin.com/in/yourprofile" },
+    { github = "https://github.com/hasheem725" },
+    { email = "mailto:hasheem725@gmail.com" }
+  ]
+
+[[menu.main]]
+  name = "Projects"
+  url = "projects/"
+  weight = 10
+
+[[menu.main]]
+  name = "About"
+  url = "/"
+  weight = 20
